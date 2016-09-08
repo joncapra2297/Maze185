@@ -30,7 +30,10 @@ class testmaze (unittest.TestCase):
         """
         pass
 
-#    def testScreenExists(self):
-#        assert type(self.m.s) == turtle._Screen
+    def testScreenExists(self):
+       assert type(self.m.s) == turtle._Screen
+
+    def testTurtleExists(self):
+        assert type(self.m.t) == turtle._Turtle
 
 unittest.main()
